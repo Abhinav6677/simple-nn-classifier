@@ -14,5 +14,6 @@ This project implements a basic multi-class classification model using a two-lay
 1. Install dependencies:
    ```bash
    pip install torch matplotlib scikit-learn
-#run this command on any CLI 
-2. python train.py
+2. run this command on any CLI
+   ```bash
+   python train.py
