@@ -15,7 +15,7 @@ y_test_tensor = torch.tensor(y_test, dtype=torch.long)
 
 model = Model()
 criterion = nn.CrossEntropyLoss()
-optimizer = optim.SGD(model.parameters(), lr=0.01)
+optimizer = torch.optim.Adam(model.parameters(), lr=0.01)
 
 train_accuracies = []
 test_accuracies = []
